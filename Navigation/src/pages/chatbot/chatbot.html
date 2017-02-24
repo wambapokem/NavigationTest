@@ -1,0 +1,30 @@
+<ion-header no-shadow>
+  <ion-navbar hideBackButton="true">
+    <button ion-button icon-only menuToggle>
+      		<ion-icon name="menu"></ion-icon>
+    	</button>
+    <ion-title>Chatbot</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="contentProperties">
+
+  <div class="messageContainer" id="chat">
+    <div class="messageBot"><span>Willkommen</span></div>
+  </div>
+
+</ion-content>
+
+<ion-footer>
+  <ion-grid>
+    <ion-row id="inputParent">
+      <ion-item>
+
+        <ion-input id="inputBox" class="inputWrapper" [(ngModel)]="user_message" type="text" placeholder="Type your message">
+        </ion-input>
+      </ion-item>
+      <button ion-button class="sendButton" class="inputWrapper" (click)="sendUserMessage()">&crarr;</button>
+    </ion-row>
+  </ion-grid>
+</ion-footer>

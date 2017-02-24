@@ -1,0 +1,63 @@
+page-chatbot {
+ .messageContainer{
+        margin-top: 20px !important;
+    }
+
+
+    .messageUser {
+      padding: 5%;
+        clear: both !important;
+        float: right !important;
+        margin: 15px 15px 10px 0px;
+        max-width: 44% !important;
+        min-height: 30px !important;
+        min-width: 10% !important;
+        background: gray;
+        border-radius: 25px;
+    }
+
+    .messageBot {
+       padding: 5%;
+       border-radius: 25px;
+        background:gray!important;
+        clear: both !important;
+        float: left !important;
+        margin: 15px 0px 10px 15px;
+        max-width: 44% !important;
+        min-height: 30px !important;
+        min-width: 10% !important;
+    }
+
+    .sendButton {
+        font-size: x-large !important;
+        height: 40px !important;
+        line-height: 0 !important;
+        width: 5% !important;
+    }
+     .inputWrapper {
+        margin: 2px;
+    }
+
+    #inputBox {
+        background: white !important;
+        color: black !important;
+        font-size: 13pt;
+        height: 30px !important;
+         text-align: center !important;
+           z-index: 2 !important;
+               border-radius: 5px !important;
+    }
+     .contentProperties {
+        z-index: -1 !important;
+    }
+     .contentProperties,
+    .messageContainer {
+        background: cadetblue!important;
+
+    }
+     .messageContainer,
+    .contentProperties {
+        height: 100% !important;
+        width: 100% !important;
+    }
+}
